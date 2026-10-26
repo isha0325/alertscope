@@ -1,0 +1,67 @@
+{
+  "title": "Live Disruption & Safety Alerts",
+  "description": "Official NWS active alerts for a US city, state or territory. Unsupported coverage and failed checks are explicit.",
+  "componentScope": {
+    "supportedIntents": [
+      {
+        "intent": "live-alerts",
+        "description": "Current official weather warnings, watches and advisories, including a specific hazard, yes/no or near-me query.",
+        "example": [
+          "weather alerts in Houston",
+          "flood warnings in Colorado",
+          "severe weather alerts in Alaska",
+          "is there a heat advisory in Phoenix",
+          "weather alerts near me",
+          "weather alerts in Delhi"
+        ]
+      }
+    ]
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "description": "Original search wording, preserving hazard and warning/watch/advisory wording."
+      },
+      "filters": {
+        "type": "object",
+        "properties": {
+          "hazard": {
+            "type": "string"
+          },
+          "place": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      },
+      "features": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "severity",
+            "urgency",
+            "certainty",
+            "area",
+            "start",
+            "end",
+            "instruction",
+            "description"
+          ]
+        }
+      },
+      "entities": {
+        "collections": [
+          "CITIES",
+          "STATES",
+          "COUNTRIES"
+        ]
+      }
+    },
+    "required": [
+      "query"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "_fixture": {
+    "kind": "synthetic",
+    "referenceTime": "2026-10-26T12:00:00Z",
+    "warning": "For UI tests only. Not live conditions."
+  },
+  "features": [
+    {
+      "id": "sample:ak:storm",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -150.1,
+              61.1
+            ],
+            [
+              -149.7,
+              61.15
+            ],
+            [
+              -149.6,
+              61.45
+            ],
+            [
+              -149.95,
+              61.6
+            ],
+            [
+              -150.2,
+              61.28
+            ],
+            [
+              -150.1,
+              61.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sample:ak:storm",
+        "event": "Winter Storm Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T09:00:00Z",
+        "onset": "2026-10-26T09:00:00Z",
+        "ends": "2026-10-27T10:00:00Z",
+        "expires": "2026-10-27T10:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Winter Storm Warning for Anchorage; Mat-Su Valley",
+        "areaDesc": "Anchorage; Mat-Su Valley",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:ak:wind",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:ak:wind",
+        "event": "High Wind Warning",
+        "severity": "Extreme",
+        "urgency": "Immediate",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T10:00:00Z",
+        "onset": "2026-10-26T10:00:00Z",
+        "ends": "2026-10-26T17:00:00Z",
+        "expires": "2026-10-26T17:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: High Wind Warning for Aleutian Islands",
+        "areaDesc": "Aleutian Islands",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:ak:flood",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:ak:flood",
+        "event": "Coastal Flood Advisory",
+        "severity": "Minor",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": "2026-10-27T18:00:00Z",
+        "expires": "2026-10-27T18:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Coastal Flood Advisory for Western Alaska",
+        "areaDesc": "Western Alaska",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    }
+  ]
+}

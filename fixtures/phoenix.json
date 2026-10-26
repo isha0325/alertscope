@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "_fixture": {
+    "kind": "synthetic",
+    "referenceTime": "2026-10-26T12:00:00Z",
+    "warning": "For UI tests only. Not live conditions."
+  },
+  "features": [
+    {
+      "id": "sample:phoenix:heat",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.3,
+              33.3
+            ],
+            [
+              -111.89999999999999,
+              33.349999999999994
+            ],
+            [
+              -111.8,
+              33.65
+            ],
+            [
+              -112.14999999999999,
+              33.8
+            ],
+            [
+              -112.39999999999999,
+              33.48
+            ],
+            [
+              -112.3,
+              33.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sample:phoenix:heat",
+        "event": "Heat Advisory",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": "2026-10-26T20:00:00Z",
+        "expires": "2026-10-26T20:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Heat Advisory for Maricopa County; Phoenix",
+        "areaDesc": "Maricopa County; Phoenix",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:phoenix:dust",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:phoenix:dust",
+        "event": "Blowing Dust Advisory",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": "2026-10-26T15:00:00Z",
+        "expires": "2026-10-26T15:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Blowing Dust Advisory for Central Maricopa County",
+        "areaDesc": "Central Maricopa County",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    }
+  ]
+}

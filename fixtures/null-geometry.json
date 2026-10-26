@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "_fixture": {
+    "kind": "synthetic",
+    "referenceTime": "2026-10-26T12:00:00Z",
+    "warning": "For UI tests only. Not live conditions."
+  },
+  "features": [
+    {
+      "id": "sample:null",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:null",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": null,
+        "expires": "2026-10-26T18:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Flood Warning for Example Zone A; Example Zone B",
+        "areaDesc": "Example Zone A; Example Zone B",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:noend",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:noend",
+        "event": "Special Weather Statement",
+        "severity": "Unknown",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": null,
+        "expires": null,
+        "headline": "SYNTHETIC SAMPLE: Special Weather Statement for Example Zone C",
+        "areaDesc": "Example Zone C",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    }
+  ]
+}

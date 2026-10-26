@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "_fixture": {
+    "kind": "synthetic",
+    "referenceTime": "2026-10-26T12:00:00Z",
+    "warning": "For UI tests only. Not live conditions."
+  },
+  "features": [
+    {
+      "id": "sample:houston:flood",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.5,
+              29.6
+            ],
+            [
+              -95.1,
+              29.650000000000002
+            ],
+            [
+              -95.0,
+              29.950000000000003
+            ],
+            [
+              -95.35,
+              30.1
+            ],
+            [
+              -95.6,
+              29.78
+            ],
+            [
+              -95.5,
+              29.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sample:houston:flood",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": "2026-10-26T16:00:00Z",
+        "expires": "2026-10-26T16:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Flash Flood Warning for Harris County; Central Houston",
+        "areaDesc": "Harris County; Central Houston",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:houston:wind",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.2,
+              29.4
+            ],
+            [
+              -94.8,
+              29.45
+            ],
+            [
+              -94.7,
+              29.75
+            ],
+            [
+              -95.05,
+              29.9
+            ],
+            [
+              -95.3,
+              29.58
+            ],
+            [
+              -95.2,
+              29.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sample:houston:wind",
+        "event": "Wind Advisory",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T10:00:00Z",
+        "onset": "2026-10-26T10:00:00Z",
+        "ends": "2026-10-27T01:00:00Z",
+        "expires": "2026-10-27T01:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Wind Advisory for Harris County; Galveston County",
+        "areaDesc": "Harris County; Galveston County",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:houston:coastal",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:houston:coastal",
+        "event": "Coastal Flood Advisory",
+        "severity": "Minor",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T14:00:00Z",
+        "onset": "2026-10-26T14:00:00Z",
+        "ends": "2026-10-27T16:00:00Z",
+        "expires": "2026-10-27T16:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Coastal Flood Advisory for Galveston Bay; Coastal Harris",
+        "areaDesc": "Galveston Bay; Coastal Harris",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    }
+  ]
+}

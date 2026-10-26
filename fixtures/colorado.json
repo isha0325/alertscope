@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "_fixture": {
+    "kind": "synthetic",
+    "referenceTime": "2026-10-26T12:00:00Z",
+    "warning": "For UI tests only. Not live conditions."
+  },
+  "features": [
+    {
+      "id": "sample:co:flood1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.5,
+              40
+            ],
+            [
+              -105.1,
+              40.05
+            ],
+            [
+              -105.0,
+              40.35
+            ],
+            [
+              -105.35,
+              40.5
+            ],
+            [
+              -105.6,
+              40.18
+            ],
+            [
+              -105.5,
+              40
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sample:co:flood1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T08:00:00Z",
+        "onset": "2026-10-26T08:00:00Z",
+        "ends": "2026-10-26T21:00:00Z",
+        "expires": "2026-10-26T21:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Flood Warning for Boulder County",
+        "areaDesc": "Boulder County",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:co:flood2",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.5,
+              40.7
+            ],
+            [
+              -105.1,
+              40.75
+            ],
+            [
+              -105.0,
+              41.050000000000004
+            ],
+            [
+              -105.35,
+              41.2
+            ],
+            [
+              -105.6,
+              40.88
+            ],
+            [
+              -105.5,
+              40.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sample:co:flood2",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": "2026-10-27T08:00:00Z",
+        "expires": "2026-10-27T08:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Flood Warning for Larimer County",
+        "areaDesc": "Larimer County",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:co:watch",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:co:watch",
+        "event": "Flood Watch",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T13:00:00Z",
+        "onset": "2026-10-26T13:00:00Z",
+        "ends": "2026-10-27T23:00:00Z",
+        "expires": "2026-10-27T23:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: Flood Watch for Jefferson County",
+        "areaDesc": "Jefferson County",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    },
+    {
+      "id": "sample:co:wind",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "sample:co:wind",
+        "event": "High Wind Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2026-10-26T10:00:00Z",
+        "effective": "2026-10-26T11:00:00Z",
+        "onset": "2026-10-26T11:00:00Z",
+        "ends": "2026-10-26T18:00:00Z",
+        "expires": "2026-10-26T18:00:00Z",
+        "headline": "SYNTHETIC SAMPLE: High Wind Warning for Eastern Colorado",
+        "areaDesc": "Eastern Colorado",
+        "senderName": "SAMPLE weather office (not an issuing authority)",
+        "instruction": "SYNTHETIC TEST TEXT. This field demonstrates where unmodified NWS instructions appear in live mode. Do not act on this sample.",
+        "description": "Synthetic interface fixture; this is not a real weather bulletin.\n\nIn live mode the complete NWS description is shown here, without generated summaries.",
+        "affectedZones": []
+      }
+    }
+  ]
+}

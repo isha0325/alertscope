@@ -1,0 +1,35 @@
+[
+  {
+    "component": "@shivek-gandhi/alertscope",
+    "query": "weather alerts in Houston",
+    "entities": [
+      {
+        "word": "Houston",
+        "collectionName": "CITIES",
+        "collectionType": "HD_LOCATION",
+        "entityInfo": {
+          "geo": {
+            "lat": 29.76328,
+            "long": -95.36327,
+            "city": "Houston",
+            "state": "Texas",
+            "stateAbb": "TX",
+            "country": "United States",
+            "countryCode": "US",
+            "tz": "America/Chicago"
+          }
+        }
+      }
+    ],
+    "userLocation": {
+      "position": {
+        "coords": {
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "countryCode": "IN"
+      },
+      "source": "ip"
+    }
+  }
+]
