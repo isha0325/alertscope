@@ -7,6 +7,18 @@ The verdict comes first. A 48-hour timeline, local countdowns, official instruct
 text, event groups and an optional affected-area map provide the detail. There is
 no backend, API key, LLM call, or paid service.
 
+---
+
+## 👥 Team & Authorship
+
+This project is a group submission for the **Live Disruption & Safety Alerts** hackathon built by:
+* **Isha Khandelwal** (ID: `123105129`)
+* **Shivek Gandhi** (ID: `123109037`)
+
+**Repository**: [github.com/isha0325/alertscope](https://github.com/isha0325/alertscope)
+
+---
+
 ## Run it in five minutes
 
 Install **Node.js 24** (or Node.js 22.12+), then open a terminal in this folder:

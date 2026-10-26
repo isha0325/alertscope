@@ -2,7 +2,7 @@ import pkg from './package.json' with { type: 'json' };
 
 // Fill these with YOUR real public links before npm run validate / npm publish.
 // Leaving them empty deliberately prevents an incomplete submission being published.
-const submission = { github: '', demovideo: '' };
+const submission = { github: 'https://github.com/isha0325/alertscope', demovideo: 'https://youtu.be/ehGlVXW31hY' };
 
 export default {
   name: pkg.name,
